@@ -1,0 +1,12 @@
+migrate_backdrop_ui.upgrade:
+  title: 'Upgrade'
+  parent: system.admin_config_development
+  description: 'Upgrade content and configuration from either a Backdrop site.'
+  route_name: migrate_backdrop_ui.upgrade
+
+migrate_backdrop_ui.log:
+  title: 'Upgrade log'
+  parent: system.admin_reports
+  description: 'View the upgrade log.'
+  route_name: migrate_backdrop_ui.log
+  weight: 0
